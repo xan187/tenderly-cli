@@ -1,6 +1,12 @@
 {
   "dependencies": {
     "truffle": "5.0.35",
-    "truffle-hdwallet-provider-privkey": "^0.3.0"
-  }
+    "truffle-hdwallet-provider-privkey": "^0.3.0",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
