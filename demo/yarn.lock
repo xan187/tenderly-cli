@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@snyk/protect@^1.1293.1":
+  version "1.1293.1"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1293.1.tgz#2fb02c26732a8500d3400379524fe708e660c0ad"
+  integrity sha512-PT2lleyaQU+AvWmnPJ3yKWNyj7JnPUZvOrVTRfXpmmPfjx+U2k3jzsk8EDj0BJd9+goTsTyeQVGCPPSqE5MQtQ==
+
 abstract-leveldown@~2.6.0:
   version "2.6.3"
   resolved "https://registry.yarnpkg.com/abstract-leveldown/-/abstract-leveldown-2.6.3.tgz#1c5e8c6a5ef965ae8c35dfb3a8770c476b82c4b8"
@@ -65,7 +70,7 @@ async-eventemitter@^0.2.2:
   dependencies:
     async "^2.4.0"
 
-"async-eventemitter@github:ahultgren/async-eventemitter#fa06e39e56786ba541c180061dbf2c0a5bbf951c":
+async-eventemitter@ahultgren/async-eventemitter#fa06e39e56786ba541c180061dbf2c0a5bbf951c:
   version "0.2.3"
   resolved "https://codeload.github.com/ahultgren/async-eventemitter/tar.gz/fa06e39e56786ba541c180061dbf2c0a5bbf951c"
   dependencies:
